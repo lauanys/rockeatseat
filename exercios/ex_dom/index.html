@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <style>
+       body{height: 100vh;
+        background-color: rgba(128, 0, 128, 0.100);
+        align-items: center;
+        display: flex;
+        justify-items: center;
+        
+        
+       }
+       button{
+        
+           background-color: rgba(128, 0, 128, 0.699);
+         color: white;
+         height: 50px;
+         width: 140px;
+        
+       }
+
+       .esc{background-color: white;
+           padding: 50px;
+           text-align: center;
+           
+           
+       }
+       #container{
+       
+           background-color: #80808069;
+          height:100vh;
+          width: 100vw;
+        align-items: center;
+        justify-content: center;
+        
+       }
+       .dis{
+           display:none;
+       }
+
+   </style>
+
+</head>
+<body class="h-screen bg-purple-100 flex flex-col items-center justify-center">
+
+
+    <button id="openModel" class="button" 
+>abrir janela
+
+</button>
+
+<div id="container" class="dis " >
+
+    <section class="esc">
+            Tecle ESC para fechar
+    </section>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>

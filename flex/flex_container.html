@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex container</title>
+   <style>
+       #flexcontainer{
+           display: flex;
+           justify-content:space-between;
+          
+         border: 1px solid blue;
+        flex-flow:row;
+      width: 500px;
+       
+       }
+       .item{flex-grow: 1;
+           border: 1px solid black;
+           flex-basis: 100%;
+           margin: 0;
+           flex-shrink: 1;
+
+       }
+   </style>
+        
+</head>
+<body>
+    <div id="flexcontainer">
+    <p class="item">1</p>
+    <p class="item">2</p>
+    <p class="item">3</p>
+    </div>
+<h2>Flex .container</h2>
+<p>flex . item</p>
+
+<h2>Nesting</h2>
+<p>elemento que contém outros elementos</p>
+
+<h2>Axis</h2>
+
+<h3>main</h3>
+<p>start, end</p>
+
+<h3>cross</h3>
+<p>start, end</p>
+
+<h2>Flex sizing</h2>
+<p>flexível</p>
+<p>altera width/height dos items para preencimanto dos espaços do flex container</p>
+
+</body>
+</html>
