@@ -1,0 +1,12 @@
+.central {
+    border: 1px solid blue;
+    margin-left: 500px;
+    margin-top: 150px;
+    width: 500px;
+    height: 350px;
+    box-shadow: 10px 5px 5px red;
+} 
+
+.central #aqui{
+    text-align: center;
+}
